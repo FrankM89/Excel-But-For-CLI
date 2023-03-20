@@ -234,7 +234,7 @@ function viewEmployeesByManager() {
         type: "list",
         name: "managerId",
         message:
-          "Which employFor which employee would you like to view the list of their direct reports?ee do you want to see direct reports for?",
+          "For which employee would you like to view the list of their direct reports for?",
         choices: managerChoices,
       },
     ])
@@ -288,7 +288,7 @@ function updateEmployeeRole() {
       {
         type: "list",
         name: "employeeId",
-        message: "Which employee's do you want to update?",
+        message: "Which employees do you want to update?",
         choices: employeeChoices,
       },
     ]).then((res) => {
